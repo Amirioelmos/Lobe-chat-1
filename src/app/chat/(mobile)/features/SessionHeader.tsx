@@ -11,6 +11,7 @@ import { useGlobalStore } from '@/store/global';
 import { commonSelectors } from '@/store/global/selectors';
 import { useSessionStore } from '@/store/session';
 import { mobileHeaderSticky } from '@/styles/mobileHeader';
+import Image from 'next/image';
 
 export const useStyles = createStyles(({ css, token }) => ({
   logo: css`
@@ -33,7 +34,7 @@ const Header = memo(() => {
           <div onClick={() => router.push('/settings')}>
             {avatar ? <Avatar avatar={avatar} size={28} /> : <Logo size={28} />}
           </div>
-          <Logo type={'text'} />
+          <Image  alt="aihub" height={50} src="/aihub.jpg" width={100}  />
           <SyncStatusInspector placement={'bottom'} />
         </Flexbox>
       }
