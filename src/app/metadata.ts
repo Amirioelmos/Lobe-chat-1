@@ -36,13 +36,13 @@ const metadata: Metadata = {
       {
         alt: title,
         height: 360,
-        url: 'https://registry.npmmirror.com/@lobehub/assets-favicons/latest/files/assets/og-480x270.png',
+        url: 'https://aihubchat.s3.ir-thr-at1.arvanstorage.ir/Screenshot-from-2024-04-15-22-47-39.png',
         width: 480,
       },
       {
         alt: title,
         height: 720,
-        url: 'https://registry.npmmirror.com/@lobehub/assets-favicons/latest/files/assets/og-960x540.png',
+        url: 'https://aihubchat.s3.ir-thr-at1.arvanstorage.ir/Screenshot-from-2024-04-15-22-47-39.png',
         width: 960,
       },
     ],
@@ -61,7 +61,7 @@ const metadata: Metadata = {
     card: 'summary_large_image',
     description,
     images: [
-      'https://registry.npmmirror.com/@lobehub/assets-favicons/latest/files/assets/og-960x540.png',
+      'https://aihubchat.s3.ir-thr-at1.arvanstorage.ir/Screenshot-from-2024-04-15-22-47-39.png',
     ],
     site: '@lobehub',
     title,

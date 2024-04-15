@@ -45,7 +45,7 @@ const DisableSync = memo<DisableSyncProps>(({ noPopover, placement = 'bottomLeft
           {t('sync.disabled.desc')}
           {haveConfig ? (
             <Flexbox gap={8} horizontal>
-              <Link href={'/settings/sync'}>
+              <Link href={'/'}>
                 <Button block icon={<Icon icon={LucideCloudCog} />}>
                   {t('sync.disabled.actions.settings')}
                 </Button>
@@ -55,7 +55,7 @@ const DisableSync = memo<DisableSyncProps>(({ noPopover, placement = 'bottomLeft
               </Button>
             </Flexbox>
           ) : (
-            <Link href={'/settings/sync'}>
+            <Link href={'/'}>
               <Button block icon={<Icon icon={LucideCloudCog} />} type={'primary'}>
                 {t('sync.disabled.actions.settings')}
               </Button>
